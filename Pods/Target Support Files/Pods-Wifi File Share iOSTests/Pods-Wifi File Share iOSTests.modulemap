@@ -1,0 +1,6 @@
+framework module Pods_Wifi_File_Share_iOSTests {
+  umbrella header "Pods-Wifi File Share iOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

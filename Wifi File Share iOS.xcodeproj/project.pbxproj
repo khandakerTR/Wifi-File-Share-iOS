@@ -7,6 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D69332127F4680C0002B0A9 /* ERFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D69332027F4680C0002B0A9 /* ERFileManager.swift */; };
+		0D708B9C27F80EBF00C92E10 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708B9B27F80EBF00C92E10 /* CustomCollectionViewCell.swift */; };
+		0D708BA027F80FEF00C92E10 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708B9F27F80FEF00C92E10 /* Constant.swift */; };
+		0D708BA227F826AB00C92E10 /* ERAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BA127F826AB00C92E10 /* ERAlertController.swift */; };
+		0D708BD127F855CE00C92E10 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BAD27F855CE00C92E10 /* PreviewView.swift */; };
+		0D708BD227F855CE00C92E10 /* CustomPhotoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BAE27F855CE00C92E10 /* CustomPhotoPickerViewController.swift */; };
+		0D708BD327F855CE00C92E10 /* CustomCameraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BAF27F855CE00C92E10 /* CustomCameraCell.xib */; };
+		0D708BD427F855CE00C92E10 /* TLPhotosPicker+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BB027F855CE00C92E10 /* TLPhotosPicker+Extension.swift */; };
+		0D708BD527F855CE00C92E10 /* CustomBlackStylePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BB127F855CE00C92E10 /* CustomBlackStylePickerViewController.swift */; };
+		0D708BD627F855CE00C92E10 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BB227F855CE00C92E10 /* ImagePreviewViewController.swift */; };
+		0D708BD727F855CE00C92E10 /* CustomFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BB327F855CE00C92E10 /* CustomFooterView.swift */; };
+		0D708BD827F855CE00C92E10 /* CustomCell_Instagram.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BB427F855CE00C92E10 /* CustomCell_Instagram.xib */; };
+		0D708BD927F855CE00C92E10 /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BB527F855CE00C92E10 /* CustomHeaderView.xib */; };
+		0D708BDA27F855CE00C92E10 /* CustomCell_Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BB627F855CE00C92E10 /* CustomCell_Instagram.swift */; };
+		0D708BDB27F855CE00C92E10 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BB727F855CE00C92E10 /* PhotoCaptureDelegate.swift */; };
+		0D708BDC27F855CE00C92E10 /* CustomFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BB827F855CE00C92E10 /* CustomFooterView.xib */; };
+		0D708BDD27F855CE00C92E10 /* ImagePreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BB927F855CE00C92E10 /* ImagePreviewViewController.xib */; };
+		0D708BDE27F855CE00C92E10 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BBA27F855CE00C92E10 /* CustomHeaderView.swift */; };
+		0D708BDF27F855CE00C92E10 /* PhotoPickerWithNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BBB27F855CE00C92E10 /* PhotoPickerWithNavigationViewController.swift */; };
+		0D708BE027F855CE00C92E10 /* CustomCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BBC27F855CE00C92E10 /* CustomCameraCell.swift */; };
+		0D708BE127F855CE00C92E10 /* CustomDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BBD27F855CE00C92E10 /* CustomDataSources.swift */; };
+		0D708BE227F855CE00C92E10 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BBF27F855CE00C92E10 /* LICENSE */; };
+		0D708BE327F855CE00C92E10 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BC127F855CE00C92E10 /* TLPhotoLibrary.swift */; };
+		0D708BE427F855CE00C92E10 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BC227F855CE00C92E10 /* TLPhotopickerDataSourcesProtocol.swift */; };
+		0D708BE527F855CE00C92E10 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BC327F855CE00C92E10 /* TLCollectionTableViewCell.swift */; };
+		0D708BE627F855CE00C92E10 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BC427F855CE00C92E10 /* TLCollectionTableViewCell.xib */; };
+		0D708BE727F855CE00C92E10 /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BC527F855CE00C92E10 /* TLBundle.swift */; };
+		0D708BE827F855CE00C92E10 /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BC627F855CE00C92E10 /* TLAlbumPopView.swift */; };
+		0D708BE927F855CE00C92E10 /* TLAssetPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BC727F855CE00C92E10 /* TLAssetPreviewViewController.swift */; };
+		0D708BEA27F855CE00C92E10 /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BC827F855CE00C92E10 /* TLPhotoCollectionViewCell.swift */; };
+		0D708BEB27F855CE00C92E10 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BC927F855CE00C92E10 /* TLPhotoCollectionViewCell.xib */; };
+		0D708BEC27F855CE00C92E10 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BCA27F855CE00C92E10 /* SynchronizedDictionary.swift */; };
+		0D708BED27F855CE00C92E10 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BCB27F855CE00C92E10 /* TLAssetCollection+Extension.swift */; };
+		0D708BEE27F855CE00C92E10 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BCC27F855CE00C92E10 /* TLPhotosPickerViewController.swift */; };
+		0D708BEF27F855CE00C92E10 /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D708BCD27F855CE00C92E10 /* TLAssetsCollection.swift */; };
+		0D708BF027F855CE00C92E10 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BCE27F855CE00C92E10 /* TLPhotosPickerViewController.xib */; };
+		0D708BF127F855CE00C92E10 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BCF27F855CE00C92E10 /* README.md */; };
+		0D708BF227F855CE00C92E10 /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D708BD027F855CE00C92E10 /* TLPhotoPickerController.bundle */; };
 		0D88BA8D27F311AF00FCD9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D88BA8C27F311AF00FCD9FF /* AppDelegate.swift */; };
 		0D88BA8F27F311AF00FCD9FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D88BA8E27F311AF00FCD9FF /* SceneDelegate.swift */; };
 		0D88BA9127F311AF00FCD9FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D88BA9027F311AF00FCD9FF /* ViewController.swift */; };
@@ -16,6 +54,9 @@
 		0D88BAA427F311B800FCD9FF /* Wifi_File_Share_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D88BAA327F311B800FCD9FF /* Wifi_File_Share_iOSTests.swift */; };
 		0D88BAAE27F311B800FCD9FF /* Wifi_File_Share_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D88BAAD27F311B800FCD9FF /* Wifi_File_Share_iOSUITests.swift */; };
 		0D88BAB027F311B800FCD9FF /* Wifi_File_Share_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D88BAAF27F311B800FCD9FF /* Wifi_File_Share_iOSUITestsLaunchTests.swift */; };
+		0F1144432A2167B4BD06DFA7 /* Pods_Wifi_File_Share_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E1A64CB9781280EB026336 /* Pods_Wifi_File_Share_iOS.framework */; };
+		E070CD05EEF6A63831D47243 /* Pods_Wifi_File_Share_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E9F00FE275AA7CF3804BA /* Pods_Wifi_File_Share_iOSTests.framework */; };
+		E112FF14517968E49F332C40 /* Pods_Wifi_File_Share_iOS_Wifi_File_Share_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F26C32F809D68AA8364B38A /* Pods_Wifi_File_Share_iOS_Wifi_File_Share_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +77,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		054F1A524CCB3B5F1789ED06 /* Pods-Wifi File Share iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi File Share iOS.debug.xcconfig"; path = "Target Support Files/Pods-Wifi File Share iOS/Pods-Wifi File Share iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0D69332027F4680C0002B0A9 /* ERFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERFileManager.swift; sourceTree = "<group>"; };
+		0D708B9B27F80EBF00C92E10 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		0D708B9F27F80FEF00C92E10 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0D708BA127F826AB00C92E10 /* ERAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERAlertController.swift; sourceTree = "<group>"; };
+		0D708BAD27F855CE00C92E10 /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		0D708BAE27F855CE00C92E10 /* CustomPhotoPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotoPickerViewController.swift; sourceTree = "<group>"; };
+		0D708BAF27F855CE00C92E10 /* CustomCameraCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraCell.xib; sourceTree = "<group>"; };
+		0D708BB027F855CE00C92E10 /* TLPhotosPicker+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TLPhotosPicker+Extension.swift"; sourceTree = "<group>"; };
+		0D708BB127F855CE00C92E10 /* CustomBlackStylePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlackStylePickerViewController.swift; sourceTree = "<group>"; };
+		0D708BB227F855CE00C92E10 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		0D708BB327F855CE00C92E10 /* CustomFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFooterView.swift; sourceTree = "<group>"; };
+		0D708BB427F855CE00C92E10 /* CustomCell_Instagram.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell_Instagram.xib; sourceTree = "<group>"; };
+		0D708BB527F855CE00C92E10 /* CustomHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
+		0D708BB627F855CE00C92E10 /* CustomCell_Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell_Instagram.swift; sourceTree = "<group>"; };
+		0D708BB727F855CE00C92E10 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		0D708BB827F855CE00C92E10 /* CustomFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomFooterView.xib; sourceTree = "<group>"; };
+		0D708BB927F855CE00C92E10 /* ImagePreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePreviewViewController.xib; sourceTree = "<group>"; };
+		0D708BBA27F855CE00C92E10 /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		0D708BBB27F855CE00C92E10 /* PhotoPickerWithNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPickerWithNavigationViewController.swift; sourceTree = "<group>"; };
+		0D708BBC27F855CE00C92E10 /* CustomCameraCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCameraCell.swift; sourceTree = "<group>"; };
+		0D708BBD27F855CE00C92E10 /* CustomDataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDataSources.swift; sourceTree = "<group>"; };
+		0D708BBF27F855CE00C92E10 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0D708BC127F855CE00C92E10 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLPhotoLibrary.swift; sourceTree = "<group>"; };
+		0D708BC227F855CE00C92E10 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
+		0D708BC327F855CE00C92E10 /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		0D708BC427F855CE00C92E10 /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		0D708BC527F855CE00C92E10 /* TLBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLBundle.swift; sourceTree = "<group>"; };
+		0D708BC627F855CE00C92E10 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLAlbumPopView.swift; sourceTree = "<group>"; };
+		0D708BC727F855CE00C92E10 /* TLAssetPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLAssetPreviewViewController.swift; sourceTree = "<group>"; };
+		0D708BC827F855CE00C92E10 /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		0D708BC927F855CE00C92E10 /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		0D708BCA27F855CE00C92E10 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedDictionary.swift; sourceTree = "<group>"; };
+		0D708BCB27F855CE00C92E10 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
+		0D708BCC27F855CE00C92E10 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
+		0D708BCD27F855CE00C92E10 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLAssetsCollection.swift; sourceTree = "<group>"; };
+		0D708BCE27F855CE00C92E10 /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
+		0D708BCF27F855CE00C92E10 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D708BD027F855CE00C92E10 /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TLPhotoPickerController.bundle; sourceTree = "<group>"; };
 		0D88BA8927F311AF00FCD9FF /* Wifi File Share iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wifi File Share iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D88BA8C27F311AF00FCD9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D88BA8E27F311AF00FCD9FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +129,14 @@
 		0D88BAA927F311B800FCD9FF /* Wifi File Share iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wifi File Share iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D88BAAD27F311B800FCD9FF /* Wifi_File_Share_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wifi_File_Share_iOSUITests.swift; sourceTree = "<group>"; };
 		0D88BAAF27F311B800FCD9FF /* Wifi_File_Share_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wifi_File_Share_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DA143B29D3A5F101DEB598A /* Pods-Wifi File Share iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi File Share iOS.release.xcconfig"; path = "Target Support Files/Pods-Wifi File Share iOS/Pods-Wifi File Share iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3E4E9F00FE275AA7CF3804BA /* Pods_Wifi_File_Share_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wifi_File_Share_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E1A64CB9781280EB026336 /* Pods_Wifi_File_Share_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wifi_File_Share_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC2116D2DEBD2A6AC767CFD /* Pods-Wifi File Share iOS-Wifi File Share iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi File Share iOS-Wifi File Share iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Wifi File Share iOS-Wifi File Share iOSUITests/Pods-Wifi File Share iOS-Wifi File Share iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B8F4952ADB3252D9FE1272C /* Pods-Wifi File Share iOS-Wifi File Share iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi File Share iOS-Wifi File Share iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wifi File Share iOS-Wifi File Share iOSUITests/Pods-Wifi File Share iOS-Wifi File Share iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F26C32F809D68AA8364B38A /* Pods_Wifi_File_Share_iOS_Wifi_File_Share_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wifi_File_Share_iOS_Wifi_File_Share_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C333FD862AF3C452A5E90599 /* Pods-Wifi File Share iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi File Share iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Wifi File Share iOSTests/Pods-Wifi File Share iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FED6007CE35FC9F7AB5AED39 /* Pods-Wifi File Share iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifi File Share iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Wifi File Share iOSTests/Pods-Wifi File Share iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1144432A2167B4BD06DFA7 /* Pods_Wifi_File_Share_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E070CD05EEF6A63831D47243 /* Pods_Wifi_File_Share_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +160,140 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E112FF14517968E49F332C40 /* Pods_Wifi_File_Share_iOS_Wifi_File_Share_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D708BA327F851BB00C92E10 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0D88BA8E27F311AF00FCD9FF /* SceneDelegate.swift */,
+				0D88BA8C27F311AF00FCD9FF /* AppDelegate.swift */,
+				0D88BA9A27F311B800FCD9FF /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0D708BA427F851E000C92E10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D88BA9027F311AF00FCD9FF /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0D708BA527F8522600C92E10 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0D69332027F4680C0002B0A9 /* ERFileManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0D708BA627F8524700C92E10 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0D708BAB27F855CE00C92E10 /* ERAssetPicker */,
+				0D708BA127F826AB00C92E10 /* ERAlertController.swift */,
+				0D708B9F27F80FEF00C92E10 /* Constant.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0D708BA827F8527000C92E10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D88BA9727F311B800FCD9FF /* LaunchScreen.storyboard */,
+				0D88BA9227F311AF00FCD9FF /* Main.storyboard */,
+				0D708BA927F852A500C92E10 /* CustomCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D708BA927F852A500C92E10 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				0D708B9B27F80EBF00C92E10 /* CustomCollectionViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		0D708BAA27F852DB00C92E10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D88BA9527F311B800FCD9FF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D708BAB27F855CE00C92E10 /* ERAssetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0D708BAC27F855CE00C92E10 /* ERCustomPicker */,
+				0D708BBE27F855CE00C92E10 /* TLPhotoPicker */,
+			);
+			path = ERAssetPicker;
+			sourceTree = "<group>";
+		};
+		0D708BAC27F855CE00C92E10 /* ERCustomPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0D708BAD27F855CE00C92E10 /* PreviewView.swift */,
+				0D708BAE27F855CE00C92E10 /* CustomPhotoPickerViewController.swift */,
+				0D708BAF27F855CE00C92E10 /* CustomCameraCell.xib */,
+				0D708BB027F855CE00C92E10 /* TLPhotosPicker+Extension.swift */,
+				0D708BB127F855CE00C92E10 /* CustomBlackStylePickerViewController.swift */,
+				0D708BB227F855CE00C92E10 /* ImagePreviewViewController.swift */,
+				0D708BB327F855CE00C92E10 /* CustomFooterView.swift */,
+				0D708BB427F855CE00C92E10 /* CustomCell_Instagram.xib */,
+				0D708BB527F855CE00C92E10 /* CustomHeaderView.xib */,
+				0D708BB627F855CE00C92E10 /* CustomCell_Instagram.swift */,
+				0D708BB727F855CE00C92E10 /* PhotoCaptureDelegate.swift */,
+				0D708BB827F855CE00C92E10 /* CustomFooterView.xib */,
+				0D708BB927F855CE00C92E10 /* ImagePreviewViewController.xib */,
+				0D708BBA27F855CE00C92E10 /* CustomHeaderView.swift */,
+				0D708BBB27F855CE00C92E10 /* PhotoPickerWithNavigationViewController.swift */,
+				0D708BBC27F855CE00C92E10 /* CustomCameraCell.swift */,
+				0D708BBD27F855CE00C92E10 /* CustomDataSources.swift */,
+			);
+			path = ERCustomPicker;
+			sourceTree = "<group>";
+		};
+		0D708BBE27F855CE00C92E10 /* TLPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0D708BBF27F855CE00C92E10 /* LICENSE */,
+				0D708BC027F855CE00C92E10 /* Classes */,
+				0D708BCF27F855CE00C92E10 /* README.md */,
+				0D708BD027F855CE00C92E10 /* TLPhotoPickerController.bundle */,
+			);
+			path = TLPhotoPicker;
+			sourceTree = "<group>";
+		};
+		0D708BC027F855CE00C92E10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D708BC127F855CE00C92E10 /* TLPhotoLibrary.swift */,
+				0D708BC227F855CE00C92E10 /* TLPhotopickerDataSourcesProtocol.swift */,
+				0D708BC327F855CE00C92E10 /* TLCollectionTableViewCell.swift */,
+				0D708BC427F855CE00C92E10 /* TLCollectionTableViewCell.xib */,
+				0D708BC527F855CE00C92E10 /* TLBundle.swift */,
+				0D708BC627F855CE00C92E10 /* TLAlbumPopView.swift */,
+				0D708BC727F855CE00C92E10 /* TLAssetPreviewViewController.swift */,
+				0D708BC827F855CE00C92E10 /* TLPhotoCollectionViewCell.swift */,
+				0D708BC927F855CE00C92E10 /* TLPhotoCollectionViewCell.xib */,
+				0D708BCA27F855CE00C92E10 /* SynchronizedDictionary.swift */,
+				0D708BCB27F855CE00C92E10 /* TLAssetCollection+Extension.swift */,
+				0D708BCC27F855CE00C92E10 /* TLPhotosPickerViewController.swift */,
+				0D708BCD27F855CE00C92E10 /* TLAssetsCollection.swift */,
+				0D708BCE27F855CE00C92E10 /* TLPhotosPickerViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		0D88BA8027F311AF00FCD9FF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +301,8 @@
 				0D88BAA227F311B800FCD9FF /* Wifi File Share iOSTests */,
 				0D88BAAC27F311B800FCD9FF /* Wifi File Share iOSUITests */,
 				0D88BA8A27F311AF00FCD9FF /* Products */,
+				2FF58ABE8E5016D1F0DFEF2A /* Pods */,
+				2A031D986E6419FEE1D1FA4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +319,12 @@
 		0D88BA8B27F311AF00FCD9FF /* Wifi File Share iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0D88BA8C27F311AF00FCD9FF /* AppDelegate.swift */,
-				0D88BA8E27F311AF00FCD9FF /* SceneDelegate.swift */,
-				0D88BA9027F311AF00FCD9FF /* ViewController.swift */,
-				0D88BA9227F311AF00FCD9FF /* Main.storyboard */,
-				0D88BA9527F311B800FCD9FF /* Assets.xcassets */,
-				0D88BA9727F311B800FCD9FF /* LaunchScreen.storyboard */,
-				0D88BA9A27F311B800FCD9FF /* Info.plist */,
+				0D708BA327F851BB00C92E10 /* Application */,
+				0D708BA427F851E000C92E10 /* Controllers */,
+				0D708BA627F8524700C92E10 /* Helper */,
+				0D708BA527F8522600C92E10 /* Managers */,
+				0D708BA827F8527000C92E10 /* View */,
+				0D708BAA27F852DB00C92E10 /* Resources */,
 			);
 			path = "Wifi File Share iOS";
 			sourceTree = "<group>";
@@ -127,6 +346,29 @@
 			path = "Wifi File Share iOSUITests";
 			sourceTree = "<group>";
 		};
+		2A031D986E6419FEE1D1FA4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E1A64CB9781280EB026336 /* Pods_Wifi_File_Share_iOS.framework */,
+				8F26C32F809D68AA8364B38A /* Pods_Wifi_File_Share_iOS_Wifi_File_Share_iOSUITests.framework */,
+				3E4E9F00FE275AA7CF3804BA /* Pods_Wifi_File_Share_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FF58ABE8E5016D1F0DFEF2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				054F1A524CCB3B5F1789ED06 /* Pods-Wifi File Share iOS.debug.xcconfig */,
+				1DA143B29D3A5F101DEB598A /* Pods-Wifi File Share iOS.release.xcconfig */,
+				8B8F4952ADB3252D9FE1272C /* Pods-Wifi File Share iOS-Wifi File Share iOSUITests.debug.xcconfig */,
+				7BC2116D2DEBD2A6AC767CFD /* Pods-Wifi File Share iOS-Wifi File Share iOSUITests.release.xcconfig */,
+				C333FD862AF3C452A5E90599 /* Pods-Wifi File Share iOSTests.debug.xcconfig */,
+				FED6007CE35FC9F7AB5AED39 /* Pods-Wifi File Share iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +376,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D88BAB327F311B800FCD9FF /* Build configuration list for PBXNativeTarget "Wifi File Share iOS" */;
 			buildPhases = (
+				7CB2F31E0F66FCBDB120E16F /* [CP] Check Pods Manifest.lock */,
 				0D88BA8527F311AF00FCD9FF /* Sources */,
 				0D88BA8627F311AF00FCD9FF /* Frameworks */,
 				0D88BA8727F311AF00FCD9FF /* Resources */,
+				37F1CE8D478E1AD23626E4E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +395,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D88BAB627F311B800FCD9FF /* Build configuration list for PBXNativeTarget "Wifi File Share iOSTests" */;
 			buildPhases = (
+				74C075F24371FA26F4D1CD59 /* [CP] Check Pods Manifest.lock */,
 				0D88BA9B27F311B800FCD9FF /* Sources */,
 				0D88BA9C27F311B800FCD9FF /* Frameworks */,
 				0D88BA9D27F311B800FCD9FF /* Resources */,
@@ -169,9 +414,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D88BAB927F311B800FCD9FF /* Build configuration list for PBXNativeTarget "Wifi File Share iOSUITests" */;
 			buildPhases = (
+				A3A17B32C219D0329DFE93C6 /* [CP] Check Pods Manifest.lock */,
 				0D88BAA527F311B800FCD9FF /* Sources */,
 				0D88BAA627F311B800FCD9FF /* Frameworks */,
 				0D88BAA727F311B800FCD9FF /* Resources */,
+				D55E63E2A635166261CFB9D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +478,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D708BDC27F855CE00C92E10 /* CustomFooterView.xib in Resources */,
 				0D88BA9927F311B800FCD9FF /* LaunchScreen.storyboard in Resources */,
+				0D708BD327F855CE00C92E10 /* CustomCameraCell.xib in Resources */,
+				0D708BDD27F855CE00C92E10 /* ImagePreviewViewController.xib in Resources */,
+				0D708BF127F855CE00C92E10 /* README.md in Resources */,
 				0D88BA9627F311B800FCD9FF /* Assets.xcassets in Resources */,
+				0D708BF227F855CE00C92E10 /* TLPhotoPickerController.bundle in Resources */,
+				0D708BEB27F855CE00C92E10 /* TLPhotoCollectionViewCell.xib in Resources */,
 				0D88BA9427F311AF00FCD9FF /* Main.storyboard in Resources */,
+				0D708BE227F855CE00C92E10 /* LICENSE in Resources */,
+				0D708BD927F855CE00C92E10 /* CustomHeaderView.xib in Resources */,
+				0D708BD827F855CE00C92E10 /* CustomCell_Instagram.xib in Resources */,
+				0D708BF027F855CE00C92E10 /* TLPhotosPickerViewController.xib in Resources */,
+				0D708BE627F855CE00C92E10 /* TLCollectionTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +511,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37F1CE8D478E1AD23626E4E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wifi File Share iOS/Pods-Wifi File Share iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wifi File Share iOS/Pods-Wifi File Share iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wifi File Share iOS/Pods-Wifi File Share iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C075F24371FA26F4D1CD59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wifi File Share iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB2F31E0F66FCBDB120E16F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wifi File Share iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A17B32C219D0329DFE93C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wifi File Share iOS-Wifi File Share iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55E63E2A635166261CFB9D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wifi File Share iOS-Wifi File Share iOSUITests/Pods-Wifi File Share iOS-Wifi File Share iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wifi File Share iOS-Wifi File Share iOSUITests/Pods-Wifi File Share iOS-Wifi File Share iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wifi File Share iOS-Wifi File Share iOSUITests/Pods-Wifi File Share iOS-Wifi File Share iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D88BA8527F311AF00FCD9FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D708BED27F855CE00C92E10 /* TLAssetCollection+Extension.swift in Sources */,
+				0D708BE727F855CE00C92E10 /* TLBundle.swift in Sources */,
+				0D708BEF27F855CE00C92E10 /* TLAssetsCollection.swift in Sources */,
+				0D708BDE27F855CE00C92E10 /* CustomHeaderView.swift in Sources */,
+				0D69332127F4680C0002B0A9 /* ERFileManager.swift in Sources */,
+				0D708BD227F855CE00C92E10 /* CustomPhotoPickerViewController.swift in Sources */,
+				0D708BE027F855CE00C92E10 /* CustomCameraCell.swift in Sources */,
+				0D708BDF27F855CE00C92E10 /* PhotoPickerWithNavigationViewController.swift in Sources */,
+				0D708BD427F855CE00C92E10 /* TLPhotosPicker+Extension.swift in Sources */,
+				0D708BDB27F855CE00C92E10 /* PhotoCaptureDelegate.swift in Sources */,
+				0D708BE527F855CE00C92E10 /* TLCollectionTableViewCell.swift in Sources */,
+				0D708BD127F855CE00C92E10 /* PreviewView.swift in Sources */,
+				0D708BEE27F855CE00C92E10 /* TLPhotosPickerViewController.swift in Sources */,
+				0D708BE827F855CE00C92E10 /* TLAlbumPopView.swift in Sources */,
+				0D708B9C27F80EBF00C92E10 /* CustomCollectionViewCell.swift in Sources */,
+				0D708BD527F855CE00C92E10 /* CustomBlackStylePickerViewController.swift in Sources */,
+				0D708BEA27F855CE00C92E10 /* TLPhotoCollectionViewCell.swift in Sources */,
+				0D708BE327F855CE00C92E10 /* TLPhotoLibrary.swift in Sources */,
+				0D708BE127F855CE00C92E10 /* CustomDataSources.swift in Sources */,
+				0D708BD727F855CE00C92E10 /* CustomFooterView.swift in Sources */,
+				0D708BDA27F855CE00C92E10 /* CustomCell_Instagram.swift in Sources */,
+				0D708BE427F855CE00C92E10 /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
 				0D88BA9127F311AF00FCD9FF /* ViewController.swift in Sources */,
+				0D708BEC27F855CE00C92E10 /* SynchronizedDictionary.swift in Sources */,
 				0D88BA8D27F311AF00FCD9FF /* AppDelegate.swift in Sources */,
 				0D88BA8F27F311AF00FCD9FF /* SceneDelegate.swift in Sources */,
+				0D708BE927F855CE00C92E10 /* TLAssetPreviewViewController.swift in Sources */,
+				0D708BA027F80FEF00C92E10 /* Constant.swift in Sources */,
+				0D708BD627F855CE00C92E10 /* ImagePreviewViewController.swift in Sources */,
+				0D708BA227F826AB00C92E10 /* ERAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +822,7 @@
 		};
 		0D88BAB427F311B800FCD9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054F1A524CCB3B5F1789ED06 /* Pods-Wifi File Share iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,12 +830,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4A9T7D84R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Wifi File Share iOS/Info.plist";
+				INFOPLIST_FILE = "Wifi File Share iOS/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +852,7 @@
 		};
 		0D88BAB527F311B800FCD9FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA143B29D3A5F101DEB598A /* Pods-Wifi File Share iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,12 +860,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4A9T7D84R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Wifi File Share iOS/Info.plist";
+				INFOPLIST_FILE = "Wifi File Share iOS/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +882,7 @@
 		};
 		0D88BAB727F311B800FCD9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C333FD862AF3C452A5E90599 /* Pods-Wifi File Share iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +903,7 @@
 		};
 		0D88BAB827F311B800FCD9FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED6007CE35FC9F7AB5AED39 /* Pods-Wifi File Share iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +924,7 @@
 		};
 		0D88BABA27F311B800FCD9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8F4952ADB3252D9FE1272C /* Pods-Wifi File Share iOS-Wifi File Share iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +943,7 @@
 		};
 		0D88BABB27F311B800FCD9FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC2116D2DEBD2A6AC767CFD /* Pods-Wifi File Share iOS-Wifi File Share iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

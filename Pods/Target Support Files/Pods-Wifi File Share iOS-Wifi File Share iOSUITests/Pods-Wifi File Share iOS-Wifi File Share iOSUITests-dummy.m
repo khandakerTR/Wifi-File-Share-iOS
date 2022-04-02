@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Wifi_File_Share_iOS_Wifi_File_Share_iOSUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Wifi_File_Share_iOS_Wifi_File_Share_iOSUITests
+@end
